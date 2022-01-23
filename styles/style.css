@@ -87,8 +87,9 @@ font-weight: 800;
 .infocards{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-    margin: 3rem auto 3rem auto;
+    gap: 2rem;
+    margin: 5rem auto 9rem auto;
+    padding: 2rem;
 }
 .card img{
     height: 88px;
@@ -110,3 +111,40 @@ font-weight: 800;
 }
 
 /* app features section */
+.green{
+    background-color: var(--primary);
+    color: var(--secondary);
+    margin: 0 2rem 2rem;
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.whitelogo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.whitelogo img{
+    height: 9rem;
+}
+.mobileapp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mobileapp img{
+    height: 51rem;
+}
+.greentext{
+    padding-left: 1rem;
+    font-size: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.greentext h2{
+    font-size: 3.8rem;
+    text-decoration: underline;
+}
